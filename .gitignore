@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+# ignore files in output
+output/*
+# but keep the output folder
+!output/.keep

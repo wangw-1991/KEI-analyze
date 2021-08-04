@@ -1,0 +1,20 @@
+{
+	"__comment": {
+	  "loop-delay": "delay between each running loop of the whole workflows, unit: s",
+	  "checkup-delay": "check up interval for waitFroConditon, unit: ms",
+	  "chrome-path": "executable chrome path, empty string or unset means to find chrome in regular installed folders",
+	  "user-data-dir": "arg to --user-data-dir for chrome, empty string or unset means use the default one, refer chrome://version for detials",
+	  "profile": "arg to --profile-directory for chrome, empty string or unset means use the default one, refer chrome://version for detials",
+	  "profilerTool": "choose which profile tool to use, can be one of 'SEP', 'VTUNE', 'ETL', 'TRACE' or 'none'",
+	  "use-proxy": "use proxy or not",
+	  "proxy": "ip:port of the proxy server, only valid when 'use-proxy' is set as true",
+	},
+	"loopDelay": 30,
+	"checkup-delay": 30,
+	"chrome-path": "",
+	"user-data-dir": "",
+	"profile": "Default",
+	"profilerTool": "none",
+	"use-proxy": false,
+	"proxy": "127.0.0.1:3128",
+}

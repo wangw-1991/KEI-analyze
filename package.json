@@ -1,0 +1,20 @@
+{
+  "name": "kei-workload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "delay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-paths": "^1.0.1",
+    "commander": "^8.1.0",
+    "date-and-time": "^1.0.1",
+    "puppeteer-core": "^10.1.0",
+    "stats": "^1.0.0",
+    "stats-lite": "^2.2.0",
+    "systeminformation": "^5.8.0"
+  }
+}
