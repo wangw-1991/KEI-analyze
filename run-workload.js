@@ -149,7 +149,8 @@ let env = {
 const default_workflow= [
   Workflow.startBrowser,
   Workflow.openPage,
-  Workflow.operatePage,
+  // Workflow.operatePage,
+  Workflow.logIn,
   Workflow.closeBrowser,
 ];
 
@@ -173,7 +174,7 @@ async function run() {
       await func(env);
     }
     if(i !== env.configs.iterationAccount) {
-      await delaySecond(env, 20);
+      await delaySecond(env, 3*60);
     }
   }
 

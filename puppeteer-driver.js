@@ -562,7 +562,7 @@ async function screenshot(env, options) {
 
 async function startTracing(env, file, traceCategories, captureScreenshots) {
   InfoMessage(env, 'startTracing');
-  file = file || 'tracing.json';
+  file = file || './output/tracing.json';
   await env.runtime.page.tracing.start({
     path: file,
     screenshots: captureScreenshots,
